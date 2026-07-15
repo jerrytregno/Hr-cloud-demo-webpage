@@ -1,0 +1,9 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Internal reference assets (not part of the site)
+*.pdf
+
+# Logs
+*.log
