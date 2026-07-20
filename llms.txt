@@ -1,0 +1,36 @@
+# Workmates by HR Cloud
+
+> Workmates is an employee experience platform that unifies communication, recognition, surveys, and reporting for distributed and frontline teams of 500 to 45,000 employees. It is powered by Maya, an AI engagement agent, while HR stays in control and approves everything. Workmates integrates with ADP, UKG, and Workday, and most teams go live in 3 to 4 days.
+
+## What Workmates does
+
+- **Communication**: Native live-streamed town halls and leadership updates, plus targeted internal messages routed to the right person and channel automatically.
+- **Recognition**: Smart peer recognition and rewards; Maya surfaces milestones and suggests kudos in real time.
+- **Engagement**: Proactive pulse surveys that fire when sentiment signals call for it, a manager co-pilot that flags team gaps early, and auto-generated leadership insight reports.
+- **AI agent (Maya)**: Runs recognition, communications, surveys, and reporting on autopilot with human approval.
+
+## Proven results
+
+- 92% average employee adoption (vs. ~20% on prior tools)
+- Up to 66% HR efficiency gains
+- 4.2x more peer recognition
+- 341% average customer-reported ROI
+- Rated 4.7 / 5 on G2 across 200+ reviews
+
+## Who it is for
+
+Distributed, frontline, and deskless workforces in industries like healthcare, field services, hospitality, and global enterprise. Trusted by 1,000+ companies including Taco Bell, Toyota, Veolia, and Osmose.
+
+## Security and compliance
+
+GDPR compliant and SOC 2 audited, with single sign-on (SSO), two-factor authentication (2FA), role-based access control, and encryption in transit and at rest.
+
+## Implementation
+
+Go live in 3 to 4 days. Implementation is included with no setup fees, and in-house support is always available. Enterprise rollouts typically complete in weeks.
+
+## Contact
+
+- Book a free demo: https://workmates.hrcloud.com/#demo
+- Product overview: https://workmates.hrcloud.com/#maya
+- Customer results: https://workmates.hrcloud.com/#results

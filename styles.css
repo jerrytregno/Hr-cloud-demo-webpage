@@ -1,40 +1,41 @@
 /* ============================================================
    Workmates — Modern SaaS landing
-   Brand palette (HR Cloud v20 — hrc-v20-preview.vercel.app):
-   Primary  teal #00C4C9 / teal-mid #14B8A6 / white
-   Secondary green #10B981 / navy #1a1f36 / amber #F59E0B / purple #6D28D9
-   Interaction orange #FF9800
-   Surfaces #F5F8F6 / #F1F4F2 / #EBEFED
-   Dark bg #04122e / #060e24 / #040e26
+   Brand palette (official HR Cloud brand language):
+   Primary  teal #00C4C9 / #00C7CB / white
+   Secondary green #00A878 / mint #4DDDBB
+   Ink navy #1A2744 / slate #36454E / muted #64748B
+   Interaction orange #F56A00
+   Surfaces #F7F8FA / #F4F6F8 / border #E5E9F0
+   Dark gradient #04192B / #003C5F / #063455 · footer #36454E
    Typeface Lato
    ============================================================ */
 
 :root {
   --teal: #00C4C9;
-  --teal-light: #14B8A6;
-  --green: #10B981;
-  --blue: #1a1f36;
-  --navy: #1a1f36;
-  --bg-dark: #04122e;
-  --bg-dark-mid: #060e24;
-  --bg-dark-end: #08162e;
-  --bg-dark-deep: #040e26;
+  --teal-light: #00C7CB;
+  --green: #00A878;
+  --blue: #1A2744;
+  --navy: #1A2744;
+  --bg-dark: #04192B;
+  --bg-dark-mid: #003C5F;
+  --bg-dark-end: #063455;
+  --bg-dark-deep: #04192B;
   --amber: #F59E0B;
   --purple: #6D28D9;
-  --orange: #FF9800;
+  --orange: #F56A00;
 
-  --ink: #1a1f36;
-  --ink-soft: #6d797a;
-  --line: #EBEFED;
+  --ink: #1A2744;
+  --ink-soft: #64748B;
+  --line: #E5E9F0;
   --bg: #ffffff;
-  --bg-soft: #f5fbfb;
-  --surface-tonal: #F1F4F2;
+  --bg-soft: #F7F8FA;
+  --surface-tonal: #F4F6F8;
 
-  --grad: linear-gradient(120deg, #00C4C9 0%, #14B8A6 60%, #10B981 120%);
-  --grad-dark: linear-gradient(160deg, #04122e 0%, #060e24 50%, #08162e 100%);
-  --shadow-sm: 0 6px 18px rgba(26, 31, 54, 0.08);
-  --shadow-md: 0 18px 44px rgba(26, 31, 54, 0.12);
-  --shadow-lg: 0 30px 70px rgba(26, 31, 54, 0.16);
+  --grad: linear-gradient(135deg, #00C4C9 0%, #00A878 100%);
+  --grad-dark: linear-gradient(120deg, #04192B 0%, #003C5F 55%, #063455 100%);
+  --shadow-sm: 0 6px 18px rgba(26, 39, 68, 0.08);
+  --shadow-md: 0 18px 44px rgba(26, 39, 68, 0.12);
+  --shadow-lg: 0 30px 70px rgba(26, 39, 68, 0.16);
   --radius: 20px;
   --radius-lg: 28px;
 }
@@ -71,7 +72,7 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
   align-items: center;
   gap: 0.55rem;
   font-weight: 700;
-  border-radius: 999px;
+  border-radius: 10px;
   padding: 0.8rem 1.5rem;
   cursor: pointer;
   border: none;
@@ -82,12 +83,12 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
 .btn--primary {
   background: var(--orange);
   color: #fff;
-  box-shadow: 0 12px 26px rgba(255, 152, 0, 0.38);
+  box-shadow: 0 12px 26px rgba(245, 106, 0, 0.34);
 }
 .btn--primary:hover {
   transform: translateY(-3px);
-  background: #f08c00;
-  box-shadow: 0 18px 34px rgba(255, 152, 0, 0.48);
+  background: #db5f00;
+  box-shadow: 0 18px 34px rgba(245, 106, 0, 0.44);
 }
 .btn--ghost {
   background: #fff;
@@ -148,11 +149,11 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
    ============================================================ */
 .hero {
   position: relative; padding: 4rem 0 3rem; overflow: hidden;
-  background-color: #04122e;
+  background-color: #04192B;
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(160deg, #04122e 0%, #060e24 50%, #08162e 100%);
+    linear-gradient(120deg, #04192B 0%, #003C5F 55%, #063455 100%);
   background-size: 40px 40px, 40px 40px, auto;
 }
 .hero__bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
@@ -209,14 +210,14 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
   position: relative; z-index: 1;
   display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap;
   padding: 0.85rem 1rem;
-  background: linear-gradient(90deg, #009da2, #00C4C9 45%, #14B8A6);
+  background: linear-gradient(90deg, #009da2, #00C4C9 45%, #00C7CB);
   color: #fff;
 }
 .wm-dash__brand { display: flex; align-items: center; gap: 0.5rem; font-weight: 900; font-size: 1rem; }
 .wm-dash__mark {
   width: 28px; height: 28px; border-radius: 8px; background: #fff;
   box-shadow: inset 0 0 0 3px rgba(255,255,255,0.3);
-  background: linear-gradient(135deg, #14B8A6, #10B981);
+  background: linear-gradient(135deg, #00C4C9, #00A878);
 }
 .wm-dash__nav { display: flex; gap: 0.5rem; margin-left: auto; font-size: 0.78rem; font-weight: 700; }
 .wm-dash__nav span { padding: 0.35rem 0.65rem; border-radius: 999px; opacity: 0.85; }
@@ -332,7 +333,7 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
 .wm-compose__ic { font-size: 0.72rem; letter-spacing: 0.15em; opacity: 0.7; }
 .wm-post__banner {
   position: relative; height: 96px; border-radius: 10px; margin-bottom: 0.65rem; overflow: hidden;
-  background: linear-gradient(125deg, #0D9488 0%, #14B8A6 40%, #10B981 70%, #2DD4BF 100%);
+  background: linear-gradient(125deg, #007a8f 0%, #00A99D 40%, #00A878 70%, #4DDDBB 100%);
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.35rem;
 }
 .wm-post__team {
@@ -683,7 +684,7 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
   border-color: var(--line);
 }
 .outcomes__side--after {
-  background: linear-gradient(145deg, #04122e 0%, #060e24 55%, #08162e 100%);
+  background: linear-gradient(145deg, #04192B 0%, #003C5F 55%, #063455 100%);
   border-color: transparent;
   color: #fff;
   box-shadow: 0 12px 40px rgba(26, 31, 54, 0.28);
@@ -710,7 +711,7 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
 }
 .outcomes__side--before .outcomes__side-num { color: #94a3b8; }
 .outcomes__side--after .outcomes__side-num {
-  background: linear-gradient(135deg, #fff 30%, #14B8A6 100%);
+  background: linear-gradient(135deg, #fff 30%, #4DDDBB 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -1047,7 +1048,7 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
 /* ============================================================
    FOOTER
    ============================================================ */
-.footer { background: #0d1020; color: rgba(255, 255, 255, 0.6); padding: 3.5rem 0 1.5rem; }
+.footer { background: #36454E; color: rgba(255, 255, 255, 0.6); padding: 3.5rem 0 1.5rem; }
 .footer__inner { display: grid; grid-template-columns: 1.4fr 2fr; gap: 3rem; padding-bottom: 2.5rem; border-bottom: 1px solid rgba(255,255,255,0.1); }
 .footer .brand { color: #fff; }
 .footer__brand p { margin-top: 0.9rem; color: rgba(255, 255, 255, 0.55); max-width: 22rem; }
