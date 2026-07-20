@@ -1040,7 +1040,7 @@ h1, h2, h3, h4 { font-weight: 900; line-height: 1.1; letter-spacing: -0.02em; }
 .cta p { color: rgba(255,255,255,0.85); font-size: 1.15rem; margin: 1rem auto 2rem; max-width: 34rem; position: relative; }
 .cta__form { display: flex; gap: 0.7rem; justify-content: center; flex-wrap: wrap; position: relative; }
 .cta__form input {
-  padding: 1rem 1.3rem; border-radius: 999px; border: none; min-width: 300px; font-size: 1rem; font-family: inherit;
+  padding: 1rem 1.3rem; border-radius: 10px; border: none; min-width: 300px; font-size: 1rem; font-family: inherit;
   outline: none;
 }
 .cta__note { font-size: 0.9rem; margin-top: 1.4rem; color: rgba(255,255,255,0.7); }
